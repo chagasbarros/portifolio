@@ -1,4 +1,4 @@
-# Portfólio — Lucas Andrade
+# Portfólio — Chagas Barros
 
 Next.js 14 + TypeScript + Tailwind CSS
 
