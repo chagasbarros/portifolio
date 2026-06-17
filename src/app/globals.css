@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Jost:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0f1117;
+    color: #e8eaf0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'DM Serif Display', serif;
+  }
+  .font-mono-custom {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  /* Hero background grid */
+  .hero-bg-grid {
+    background-image:
+      linear-gradient(rgba(90, 107, 58, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(90, 107, 58, 0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Gradient bar for stack cells */
+  .gradient-bar {
+    background: linear-gradient(90deg, #6e823f, #c47c3a);
+  }
+
+  /* Gradient accent line */
+  .gradient-accent {
+    background: linear-gradient(90deg, #6e823f, #c47c3a);
+  }
+
+  /* Hero tag line before */
+  .hero-tag-line::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: #8aa64e;
+    flex-shrink: 0;
+  }
+
+  /* Ghost button arrow */
+  .btn-ghost-arrow::after {
+    content: '↓';
+  }
+
+  /* Timeline connector */
+  .timeline-connector::after {
+    content: '';
+    position: absolute;
+    left: 0.4rem;
+    top: 1.2rem;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, #5a6b3a 0%, transparent 100%);
+  }
+
+  /* Values list item marker */
+  .values-item::before {
+    content: '//';
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    color: #8aa64e;
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+  }
+}
