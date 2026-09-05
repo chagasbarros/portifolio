@@ -14,9 +14,11 @@ export default function About() {
             style={{ aspectRatio: "4/5" }}
           >
             <div className="w-full h-full bg-gradient-to-br from-slate-700 to-slate-600 flex items-end justify-center pb-8">
-              <span className="font-display text-[4rem] text-olive-600 opacity-50 italic">
-                Foto Profissional
-              </span>
+              <img
+                src="/foto.jpeg"
+                alt="Foto de perfil"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute bottom-0 left-0 right-0 h-1 gradient-accent" />
           </div>
