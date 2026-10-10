@@ -21,7 +21,7 @@ export default function Contact() {
         href="mailto:chagasbarros@outlook.com"
         className="font-display text-[clamp(1.5rem,3vw,2.25rem)] italic text-copper-400 no-underline border-b border-copper-700 pb-1 hover:text-copper-200 transition-colors duration-200 inline-block mb-12"
       >
-        chagasbarros@outlook.com
+        chagas_barros@outlook.com
       </a>
 
       <div className="flex justify-center gap-8 flex-wrap">
