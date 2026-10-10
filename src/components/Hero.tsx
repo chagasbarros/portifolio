@@ -38,7 +38,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10">
         <div className="inline-flex items-center gap-2 hero-tag-line font-mono-custom text-xs text-olive-400 tracking-wider2 uppercase mb-6">
-          Fullstack Developer
+          Desenvolvedor Fullstack · em busca de estágio
         </div>
 
         <h1 className="font-display text-[clamp(3rem,5vw,5rem)] leading-[1.05] text-text-primary mb-1">
@@ -47,10 +47,10 @@ export default function Hero() {
         </h1>
 
         <p className="text-[1.1rem] text-text-secondary max-w-[480px] mt-6 mb-10 leading-relaxed">
-          Meu trabalho começa no problema, não na tecnologia. Analiso, estruturo
-          e construo aplicações fullstack que resolvem o que precisa ser
-          resolvido — com escala, qualidade e atenção à experiência do usuário
-          desde a primeira linha.
+          Meu trabalho começa no problema, não na tecnologia. Entendo a
+          necessidade de quem vai usar, comparo as soluções possíveis — com ou
+          sem software — e, quando faz sentido, construo a aplicação de ponta a
+          ponta.
         </p>
 
         <div className="flex gap-4 items-center">

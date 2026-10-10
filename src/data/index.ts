@@ -6,99 +6,95 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { num: "1+", label: "Anos de experiência" },
-  { num: "7", label: "Projetos entregues" },
-  { num: "2", label: "Clientes ativos" },
-];
-
-export const values = [
-  "Código que o próximo dev vai agradecer, não amaldiçoar",
-  "Performance como requisito, não como opcional",
-  "Documentação que explica o porquê, não só o como",
-  "Dívida técnica tratada como dívida real — com juros",
+  { num: "2º", label: "Lugar no Desafio IEL 2026" },
+  { num: "1+", label: "Ano em suporte de TI" },
+  { num: "15", label: "Anos atendendo clientes" },
 ];
 
 export const stackItems = [
-  { category: "Front-end", name: "HTML, CSS, JavaScript", level: 95 },
-  { category: "Front-end", name: "React, TypeScript, Tailwind CSS", level: 80 },
-  { category: "Back-end", name: "Node.js / Express", level: 92 },
-  { category: "Back-end", name: "Java, Maven, Junit, Spring Boot", level: 50 },
-  { category: "Banco de Dados", name: "PostgreSQL, Prisma", level: 70 },
-  { category: "Infra", name: "Docker, Linux", level: 70 },
-  { category: "Cloud", name: "AWS", level: 82 },
-  {
-    category: "Inteligência Artificial",
-    name: "RAG, Rate Limiting, Guardrails",
-    level: 40,
-  },
+  { category: "Front-end", name: "HTML, CSS, JavaScript" },
+  { category: "Front-end", name: "React, Next.js, TypeScript, Tailwind CSS" },
+  { category: "Back-end", name: "Node.js, Express" },
+  { category: "Back-end", name: "Java (orientação a objetos)" },
+  { category: "Banco de Dados", name: "SQL (MySQL, PostgreSQL)" },
+  { category: "Infra", name: "Docker, Linux, Git" },
+  { category: "Cloud", name: "AWS (EC2, S3)" },
+  { category: "Inteligência Artificial", name: "APIs de LLM e agentes de IA" },
 ];
 
 export const projects = [
   {
     num: "01",
-    name: "Aplicativo de E-commerce",
-    desc: "Uma loja online com funcionalidades de cadastro de clientes, carrinho de compras e gerenciamento de pedidos.",
-    tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"],
-    href: "https://github.com/chagasbarros/dripstore",
-  },
-  {
-    num: "02",
     name: "Gerador automatizado de Landing Pages com IA",
-    desc: "O projeto utiliza uma arquitetura de baseada em múltiplos agentes de IA especializados para analisar objetivos de negócio, definir estratégias, criar identidade visual, gerar copywriting e montar páginas completas",
+    desc: "Arquitetura com múltiplos agentes de IA especializados que analisam o objetivo de negócio, definem a estratégia, criam a identidade visual, escrevem o texto e montam a página.",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "OpenAI API"],
     href: "https://github.com/chagasbarros/lp",
   },
   {
+    num: "02",
+    name: "Banco Amigo — inclusão digital para idosos",
+    desc: "Protótipo de app bancário pensado para pessoas idosas: botões grandes, linguagem simples, pagamento guiado em 3 passos e alertas contra golpes.",
+    tags: ["React", "TypeScript", "Styled Components", "Acessibilidade"],
+    href: "https://github.com/chagasbarros/bancoAmigo",
+  },
+  {
     num: "03",
-    name: "PetShop Amigaozao - Projeto de Conclusão de Curso",
-    desc: "Landing page para um pet shop, feito com HTML Semântico, CSS e Bootstrap, com responsidade para telas pequenas e grandes. ",
-    tags: ["HTML5", "CSS3", "Bootstrap"],
-    href: "https://github.com/chagasbarros/PetShop-Amigaozao",
+    name: "Mentor TypeScript — agente de IA",
+    desc: "Agente especializado em TypeScript fullstack, com respostas em streaming e modelo de linguagem rodando localmente.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Ollama"],
+    href: "https://github.com/chagasbarros/ia-agent",
+  },
+  {
+    num: "04",
+    name: "DripStore — e-commerce fullstack",
+    desc: "Loja online com cadastro de produtos, autenticação, carrinho e pedidos, integrando front-end e back-end por API REST. Projeto final do Geração Tech 2.0.",
+    tags: ["React", "Node.js", "Express", "MySQL"],
+    href: "https://github.com/chagasbarros/dripstore",
   },
 ];
 
 export const experiences = [
   {
     period: "2026 — presente",
-    role: "Estudante Universitário",
-    company: "Centro Universitário Fametro ",
-    desc: "Curso de Análise e Desenvolvimento de Sistemas",
+    role: "Graduação em Análise e Desenvolvimento de Sistemas",
+    company: "Centro Universitário Fametro (Unifametro)",
+    desc: "2º semestre, conclusão prevista para 2028.",
     active: true,
   },
   {
     period: "2026",
-    role: "Fullstack Developer",
+    role: "Formação em IA e Soft Skills",
     company: "Geração Tech 3.0",
-    desc: "Curso de Inteligência Artificial e Softsills para desenvolvimento fullstack. Projeto final: Gerador de landing pages com IA.",
+    desc: "Inteligência artificial aplicada ao desenvolvimento. Projeto final: gerador de landing pages com IA. 2º lugar no Desafio IEL (Recruit Day, maio/2026).",
     active: false,
   },
   {
     period: "2025",
-    role: "Fullstack Developer",
+    role: "Formação Desenvolvedor Fullstack",
     company: "Geração Tech 2.0",
-    desc: "Curso de Desenvolvimento Fullstack. Projeto Final: E-commerce completo com React, Node.js, PostgreSQL e deploy na AWS.",
+    desc: "Desenvolvimento fullstack. Projeto final: e-commerce com React, Node.js, Express e MySQL.",
     active: false,
   },
-];
-
-export const education = [
   {
-    period: "2014 — 2018",
-    title: "B.Sc. Ciência da Computação",
-    institution: "UFC — Fortaleza, CE",
-    accent: "olive" as const,
+    period: "dez/2022 — jun/2023",
+    role: "Auxiliar de Suporte de TIC",
+    company: "Grupo Cordeiro Guindastes",
+    desc: "Atendimento de chamados, inventário de TI e onboarding de funcionários nos sistemas da empresa. Mapeei a rede de cerca de 100 computadores e resolvi a lentidão combinando regras no firewall e comunicados de uso consciente.",
+    active: false,
   },
   {
-    period: "2023",
-    title: "AWS Solutions Architect Associate",
-    institution: "Amazon Web Services",
-    accent: "copper" as const,
+    period: "abr/2022 — dez/2022",
+    role: "Estagiário de TIC",
+    company: "Grupo Cordeiro Guindastes",
+    desc: "Atendimento de chamados, instalação de máquinas e cabeamento.",
+    active: false,
   },
   {
-    period: "2022",
-    title: "Certified Kubernetes Administrator",
-    institution: "Cloud Native Computing Foundation",
-    accent: "copper" as const,
+    period: "nov/2021 — fev/2022",
+    role: "Estagiário de TI",
+    company: "UNIP — Universidade Paulista",
+    desc: "Rotina de chamados e monitoria no laboratório, orientando alunos no uso dos sistemas da faculdade.",
+    active: false,
   },
 ];
 

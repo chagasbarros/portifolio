@@ -15,7 +15,7 @@ export default function Projects() {
           </h2>
         </div>
         <a
-          href="#"
+          href="https://github.com/chagasbarros?tab=repositories"
           className="font-mono-custom text-xs tracking-wide uppercase text-copper-400 border-b border-copper-700 pb-0.5 no-underline hover:text-copper-200 transition-colors duration-200 self-start md:self-auto"
         >
           Ver todos →

@@ -15,9 +15,9 @@ export default function Stack() {
           </h2>
         </div>
         <p className="text-[0.95rem] text-text-secondary leading-[1.8]">
-          Ferramentas escolhidas por resultado, não por hype. Cada tecnologia
-          aqui faz parte da minha rotina de desenvolvimento — aplicadas em
-          projetos reais, com problemas reais para resolver.
+          Tecnologias que uso nos meus projetos e na faculdade. Estou em
+          formação: conheço os fundamentos de cada uma e aprofundo conforme os
+          projetos pedem.
         </p>
       </div>
 
@@ -34,12 +34,6 @@ export default function Stack() {
             <span className="text-[1rem] font-medium text-text-primary">
               {item.name}
             </span>
-            <div className="h-0.5 bg-slate-700 mt-3 relative">
-              <div
-                className="absolute top-0 left-0 h-full gradient-bar"
-                style={{ width: `${item.level}%` }}
-              />
-            </div>
           </div>
         ))}
       </div>

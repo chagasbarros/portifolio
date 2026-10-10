@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Chagas Barros — Fullstack Developer",
+  title: "Chagas Barros — Desenvolvedor Fullstack",
   description:
-    "Portfólio de Chagas Barros, desenvolvedor fullstack especializado em sistemas que escalam.",
+    "Portfólio de Chagas Barros, desenvolvedor fullstack em formação em Fortaleza, em busca de estágio.",
 };
 
 export default function RootLayout({

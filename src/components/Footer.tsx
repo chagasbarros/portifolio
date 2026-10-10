@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 border-t border-slate-700 px-8 md:px-16 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
       <p className="font-mono-custom text-[0.7rem] tracking-wide text-text-muted">
-        © 2025 <span className="text-olive-400">Chagas Barros</span> —
+        © 2026 <span className="text-olive-400">Chagas Barros</span> —
         Fortaleza, CE
       </p>
       <a

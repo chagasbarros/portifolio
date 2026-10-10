@@ -1,5 +1,3 @@
-import { values } from "@/data";
-
 export default function About() {
   return (
     <section
@@ -16,7 +14,7 @@ export default function About() {
             <div className="w-full h-full bg-gradient-to-br from-slate-700 to-slate-600 flex items-end justify-center pb-8">
               <img
                 src="/foto.jpeg"
-                alt="Foto de perfil"
+                alt="Foto de Chagas Barros"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -27,23 +25,27 @@ export default function About() {
         {/* Text */}
         <div>
           <h2 className="font-display text-[clamp(2rem,3.5vw,3rem)] leading-[1.1] text-text-primary mb-4">
-            Mentalidade de{" "}
-            <em className="not-italic text-copper-400">Crescimento,</em>
-            <br />
-            execução de alto nível
+            Do atendimento ao{" "}
+            <em className="not-italic text-copper-400">código</em>
           </h2>
           <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
-            Graduando em Análise e Desenvolvimento de Sistemas, participei de
-            hackathons e conquistei o segundo lugar no Desafio IEL em 2026.
-            Construo aprendendo: desenvolvi um e-commerce fullstack, um gerador
-            de landing pages com IA e meu próprio portfólio com deploy, domínio
-            e acessibilidade. Minhas principais tecnologias são React,
-            TypeScript, Node.js, Docker, PostgreSQL e Java. Meu diferencial não
-            é só técnico. É a mentalidade de quem mudou de vida pelo esforço — e
-            que leva cada projeto com o mesmo comprometimento que levou essa
-            transição. Busco minha primeira oportunidade como Desenvolvedor
-            Fullstack Júnior, para trabalhar ao lado de profissionais
-            experientes e continuar evoluindo.
+            Por 15 anos trabalhei com entregas de comidas e remédios, em contato
+            direto com clientes e prazos apertados. Em 2021 entrei na TI pelo
+            suporte, primeiro como estagiário na UNIP e depois no Grupo Cordeiro
+            Guindastes, e ali percebi que queria construir os sistemas, não só
+            dar suporte a eles.
+          </p>
+          <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
+            Hoje curso Análise e Desenvolvimento de Sistemas na Unifametro, fiz
+            as formações Fullstack e IA do Geração Tech e conquistei o 2º lugar
+            no Desafio IEL 2026. Aprendo construindo: um gerador de landing
+            pages com agentes de IA, um app bancário acessível para idosos e um
+            e-commerce fullstack.
+          </p>
+          <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
+            Busco um estágio em desenvolvimento, presencial em Fortaleza ou
+            remoto, onde eu possa aprender com um time experiente e contribuir
+            no que sei fazer bem: entender o problema antes de escrever código.
           </p>
 
           <div className="w-12 h-0.5 bg-copper-600 my-8" />
