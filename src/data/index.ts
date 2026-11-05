@@ -103,6 +103,6 @@ export const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/chagasbarros" },
   {
     label: "Currículo PDF",
-    href: "https://docs.google.com/document/d/1Xr38R7h4vezibXQ_aEfvsJkeKHj80j9o1OXoSPQyj8g/edit?usp=sharing",
+    href: "https://drive.google.com/file/d/1zsgGxjOFryTwDnLVi67bZYdgDLa24Z3x/view?usp=sharing",
   },
 ];
