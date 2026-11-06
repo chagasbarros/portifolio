@@ -12,13 +12,13 @@ export const stats = [
 ];
 
 export const stackItems = [
-  { category: "Front-end", name: "HTML, CSS, JavaScript" },
-  { category: "Front-end", name: "React, Next.js, TypeScript, Tailwind CSS" },
-  { category: "Back-end", name: "Node.js, Express" },
+  { category: "Front-end", name: "HTML, CSS, JavaScript, TypeScript" },
+  { category: "Front-end", name: "React, Next.js, Tailwind CSS" },
+  { category: "Back-end", name: "Node.js, Express, APIs REST, Server Actions, Zod" },
   { category: "Back-end", name: "Java (orientação a objetos)" },
-  { category: "Banco de Dados", name: "SQL (MySQL, PostgreSQL)" },
-  { category: "Infra", name: "Docker, Linux, Git" },
-  { category: "Cloud", name: "AWS (EC2, S3)" },
+  { category: "Banco de Dados", name: "SQL (MySQL, PostgreSQL), Prisma" },
+  { category: "Cloud", name: "Supabase, Vercel, AWS (EC2, S3)" },
+  { category: "Testes e Infra", name: "Vitest, Playwright, Docker, Linux, Git" },
   { category: "Inteligência Artificial", name: "APIs de LLM e agentes de IA" },
 ];
 
@@ -29,6 +29,7 @@ export const projects = [
     desc: "Plataforma de extensão da Unifametro usada por 72 alunos: jornada guiada com autoavaliação, Canvas de Carreira e plano de ação, que calcula a compatibilidade com a área escolhida e as 5 competências mais urgentes. Login só com código no e-mail, criado a partir do feedback dos alunos.",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Supabase", "Vitest", "Playwright"],
     href: "https://github.com/chagasbarros/jornadatech",
+    live: "https://www.jornadatech.app.br",
   },
   {
     num: "02",

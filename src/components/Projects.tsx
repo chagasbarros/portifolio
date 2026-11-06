@@ -25,19 +25,21 @@ export default function Projects() {
       {/* List */}
       <div className="flex flex-col gap-px bg-slate-600">
         {projects.map((project) => (
-          <a
+          <div
             key={project.num}
-            href={project.href}
-            className="group bg-slate-800 hover:bg-slate-700 transition-colors duration-200 px-6 md:px-10 py-10 grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] items-center gap-6 md:gap-12 no-underline text-inherit"
+            className="group relative bg-slate-800 hover:bg-slate-700 transition-colors duration-200 px-6 md:px-10 py-10 grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] items-center gap-6 md:gap-12"
           >
             <span className="font-mono-custom text-xs text-text-muted min-w-[2rem]">
               {project.num}
             </span>
 
             <div>
-              <div className="font-display text-[1.5rem] text-text-primary mb-1">
+              <a
+                href={project.href}
+                className="font-display text-[1.5rem] text-text-primary mb-1 block no-underline after:absolute after:inset-0"
+              >
                 {project.name}
-              </div>
+              </a>
               <div className="text-[0.9rem] text-text-secondary">
                 {project.desc}
               </div>
@@ -51,12 +53,22 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="relative z-10 inline-block mt-4 font-mono-custom text-xs tracking-wide uppercase text-copper-400 border-b border-copper-700 pb-0.5 no-underline hover:text-copper-200 transition-colors duration-200"
+                >
+                  Ver site no ar ↗
+                </a>
+              )}
             </div>
 
             <span className="hidden md:block text-xl text-text-muted group-hover:text-copper-400 group-hover:translate-x-1 transition-all duration-200">
               →
             </span>
-          </a>
+          </div>
         ))}
       </div>
     </section>

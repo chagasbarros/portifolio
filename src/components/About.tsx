@@ -38,9 +38,11 @@ export default function About() {
           <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
             Hoje curso Análise e Desenvolvimento de Sistemas na Unifametro, fiz
             as formações Fullstack e IA do Geração Tech e conquistei o 2º lugar
-            no Desafio IEL 2026. Aprendo construindo: um gerador de landing
-            pages com agentes de IA, um app bancário acessível para idosos e um
-            e-commerce fullstack.
+            no Desafio IEL 2026. Aprendo construindo: meu principal projeto é o
+            Jornada Tech, uma plataforma de plano de carreira para estudantes
+            usada por 72 alunos, que desenvolvi como projeto de extensão do
+            curso. Também criei um gerador de landing pages com agentes de IA,
+            um app bancário acessível para idosos e um e-commerce fullstack.
           </p>
           <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
             Busco um estágio em desenvolvimento, presencial em Fortaleza ou
