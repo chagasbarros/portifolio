@@ -25,27 +25,34 @@ export const stackItems = [
 export const projects = [
   {
     num: "01",
+    name: "Jornada Tech — plano de carreira para estudantes",
+    desc: "Plataforma de extensão da Unifametro usada por 72 alunos: jornada guiada com autoavaliação, Canvas de Carreira e plano de ação, que calcula a compatibilidade com a área escolhida e as 5 competências mais urgentes. Login só com código no e-mail, criado a partir do feedback dos alunos.",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Supabase", "Vitest", "Playwright"],
+    href: "https://github.com/chagasbarros/jornadatech",
+  },
+  {
+    num: "02",
     name: "Gerador automatizado de Landing Pages com IA",
     desc: "Arquitetura com múltiplos agentes de IA especializados que analisam o objetivo de negócio, definem a estratégia, criam a identidade visual, escrevem o texto e montam a página.",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "OpenAI API"],
     href: "https://github.com/chagasbarros/lp",
   },
   {
-    num: "02",
+    num: "03",
     name: "Banco Amigo — inclusão digital para idosos",
     desc: "Protótipo de app bancário pensado para pessoas idosas: botões grandes, linguagem simples, pagamento guiado em 3 passos e alertas contra golpes.",
     tags: ["React", "TypeScript", "Styled Components", "Acessibilidade"],
     href: "https://github.com/chagasbarros/bancoAmigo",
   },
   {
-    num: "03",
+    num: "04",
     name: "Mentor TypeScript — agente de IA",
     desc: "Agente especializado em TypeScript fullstack, com respostas em streaming e modelo de linguagem rodando localmente.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Ollama"],
     href: "https://github.com/chagasbarros/ia-agent",
   },
   {
-    num: "04",
+    num: "05",
     name: "DripStore — e-commerce fullstack",
     desc: "Loja online com cadastro de produtos, autenticação, carrinho e pedidos, integrando front-end e back-end por API REST. Projeto final do Geração Tech 2.0.",
     tags: ["React", "Node.js", "Express", "MySQL"],
