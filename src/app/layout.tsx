@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Chagas Barros — Desenvolvedor Fullstack",
   description:
-    "Portfólio de Chagas Barros, desenvolvedor fullstack em formação em Fortaleza, em busca de estágio.",
+    "Portfólio de Chagas Barros, desenvolvedor fullstack em Fortaleza focado em automação e inteligência artificial para negócios.",
 };
 
 export default function RootLayout({

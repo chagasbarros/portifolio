@@ -38,7 +38,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10">
         <div className="inline-flex items-center gap-2 hero-tag-line font-mono-custom text-xs text-olive-400 tracking-wider2 uppercase mb-6">
-          Desenvolvedor Fullstack · em busca de estágio
+          Desenvolvedor Fullstack · Automação e IA para negócios
         </div>
 
         <h1 className="font-display text-[clamp(3rem,5vw,5rem)] leading-[1.05] text-text-primary mb-1">

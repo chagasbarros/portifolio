@@ -25,8 +25,8 @@ export default function About() {
         {/* Text */}
         <div>
           <h2 className="font-display text-[clamp(2rem,3.5vw,3rem)] leading-[1.1] text-text-primary mb-4">
-            Do atendimento ao{" "}
-            <em className="not-italic text-copper-400">código</em>
+            Do atendimento à{" "}
+            <em className="not-italic text-copper-400">automação</em>
           </h2>
           <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
             Por 15 anos trabalhei com entregas de comidas e remédios, em contato
@@ -45,9 +45,12 @@ export default function About() {
             um app bancário acessível para idosos e um e-commerce fullstack.
           </p>
           <p className="text-[1.05rem] text-text-secondary mb-5 leading-[1.8]">
-            Busco um estágio em desenvolvimento, presencial em Fortaleza ou
-            remoto, onde eu possa aprender com um time experiente e contribuir
-            no que sei fazer bem: entender o problema antes de escrever código.
+            Hoje uso automação e inteligência artificial para resolver problemas
+            reais de negócios: tarefas repetitivas que tomam horas da equipe,
+            atendimentos que poderiam responder sozinhos, dados espalhados que
+            ninguém consegue usar. Antes de escrever código, procuro entender
+            como a empresa funciona, porque a melhor solução nem sempre é a mais
+            complexa.
           </p>
 
           <div className="w-12 h-0.5 bg-copper-600 my-8" />
