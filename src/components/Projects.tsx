@@ -1,6 +1,6 @@
-import { projects } from "@/data";
+import type { Dictionary } from "@/i18n";
 
-export default function Projects() {
+export default function Projects({ t }: { t: Dictionary["projects"] }) {
   return (
     <section
       id="projects"
@@ -10,21 +10,21 @@ export default function Projects() {
       <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-4 mb-14">
         <div>
           <h2 className="font-display text-[clamp(2rem,3.5vw,3rem)] leading-[1.1] text-text-primary">
-            Projetos{" "}
-            <em className="not-italic text-copper-400">selecionados</em>
+            {t.titleStart}{" "}
+            <em className="not-italic text-copper-400">{t.titleEm}</em>
           </h2>
         </div>
         <a
           href="https://github.com/chagasbarros?tab=repositories"
           className="font-mono-custom text-xs tracking-wide uppercase text-copper-400 border-b border-copper-700 pb-0.5 no-underline hover:text-copper-200 transition-colors duration-200 self-start md:self-auto"
         >
-          Ver todos →
+          {t.seeAll}
         </a>
       </div>
 
       {/* List */}
       <div className="flex flex-col gap-px bg-slate-600">
-        {projects.map((project) => (
+        {t.items.map((project) => (
           <div
             key={project.num}
             className="group relative bg-slate-800 hover:bg-slate-700 transition-colors duration-200 px-6 md:px-10 py-10 grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_auto] items-center gap-6 md:gap-12"
@@ -60,7 +60,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="relative z-10 inline-block mt-4 font-mono-custom text-xs tracking-wide uppercase text-copper-400 border-b border-copper-700 pb-0.5 no-underline hover:text-copper-200 transition-colors duration-200"
                 >
-                  Ver site no ar ↗
+                  {t.liveSite}
                 </a>
               )}
             </div>

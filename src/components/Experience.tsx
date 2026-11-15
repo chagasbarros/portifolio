@@ -1,23 +1,28 @@
-import { experiences } from "@/data";
+import type { Dictionary } from "@/i18n";
 
-export default function Experience() {
+export default function Experience({
+  t,
+}: {
+  t: Dictionary["experience"];
+}) {
   return (
     <section
       id="experience"
       className="bg-slate-900 border-t border-slate-700 px-8 md:px-16 py-28"
     >
       <h2 className="font-display text-[clamp(2rem,3.5vw,3rem)] leading-[1.1] text-text-primary mb-12">
-        Formação e <em className="not-italic text-copper-400">experiência</em>
+        {t.titleStart}{" "}
+        <em className="not-italic text-copper-400">{t.titleEm}</em>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-12 md:gap-16">
         {/* Timeline */}
         <div className="flex flex-col">
-          {experiences.map((exp, i) => (
+          {t.items.map((exp, i) => (
             <div
               key={`${exp.period}-${exp.role}`}
               className={`flex gap-6 pb-10 relative ${
-                i < experiences.length - 1 ? "timeline-connector" : ""
+                i < t.items.length - 1 ? "timeline-connector" : ""
               }`}
             >
               {/* Dot */}

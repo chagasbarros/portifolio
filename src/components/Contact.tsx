@@ -1,20 +1,19 @@
-import { socials } from "@/data";
+import type { Dictionary } from "@/i18n";
 
-export default function Contact() {
+export default function Contact({ t }: { t: Dictionary["contact"] }) {
   return (
     <section
       id="contact"
       className="bg-slate-800 border-t border-slate-600 px-8 md:px-16 py-32 text-center"
     >
       <h2 className="font-display text-[clamp(2rem,3.5vw,3rem)] leading-[1.1] text-text-primary mb-5">
-        Tem um desafio
+        {t.titleLine1}
         <br />
-        <em className="not-italic text-copper-400">pela frente?</em>
+        <em className="not-italic text-copper-400">{t.titleEm}</em>
       </h2>
 
       <p className="text-[1rem] text-text-secondary max-w-[480px] mx-auto mb-12 leading-relaxed">
-        Antes de qualquer linha de código, começo entendendo o problema. Se
-        quiser uma segunda cabeça pensando junto, é só falar.
+        {t.text}
       </p>
 
       <a
@@ -25,7 +24,7 @@ export default function Contact() {
       </a>
 
       <div className="flex justify-center gap-8 flex-wrap">
-        {socials.map((social) => (
+        {t.socials.map((social) => (
           <a
             key={social.label}
             href={social.href}
